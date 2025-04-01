@@ -1,0 +1,25 @@
+.searchbox {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/*.searchbox:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.4);
+}*/
+
+.searchbox .MuiTextField-root {
+    transition: all 0.3s ease-in-out;
+}
+
+.searchbox .MuiTextField-root:focus-within {
+    box-shadow: 0px 0px 10px #3a1e6b;
+}
+
+.searchbox button {
+    transition: transform 0.2s ease-in-out, background 0.3s ease-in-out;
+}
+
+.searchbox button:hover {
+    background: #2d1969 !important;
+    transform: scale(1.1);
+}

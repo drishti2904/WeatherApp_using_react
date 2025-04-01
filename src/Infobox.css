@@ -1,0 +1,54 @@
+.Infobox {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 90%;
+    max-width: 400px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.card .MuiTypography-h5 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .MuiTypography-body2 p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+}
+
+.card .MuiSvgIcon-root {
+    font-size: 28px;
+    margin-left: 5px;
+}
+
+@keyframes floatEffect {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0px); }
+}
+
+.card {
+    animation: floatEffect 3s infinite ease-in-out;
+}
+
+@keyframes bounceEffect {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+
+.card .MuiSvgIcon-root {
+    animation: bounceEffect 2s infinite ease-in-out;
+}
