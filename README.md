@@ -1,12 +1,45 @@
-# React + Vite
+##React Weather App 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+ This is a simple **React Weather App** that lets you check real-time weather conditions using the **OpenWeatherMap API**. Just type in a city name, and you'll get details like temperature, humidity, wind speed, and overall weather conditions.
 
-Currently, two official plugins are available:
+## Features
+-  Search for weather by city name
+-  Get temperature, humidity, and wind speed details
+-  See weather conditions with icons
+-  Fully responsive UI for all screen sizes
+- Fetches live weather data from OpenWeatherMap API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **React.js** - Frontend framework
+- **OpenWeatherMap API** - Provides weather data
+- **CSS** - Styling
+- **Axios** - Handles API requests
 
-## Expanding the ESLint configuration
+## How to Set Up
+Getting this app up and running is super easy. Just follow these steps:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+   
+   git clone https://github.com/your-username/react-weather-app.git
+   cd react-weather-app
+   
+2. **Install dependencies**
+   
+   npm install
+   
+3. **Get an API Key from OpenWeatherMap**
+   - Head over to [OpenWeatherMap](https://openweathermap.org/) and sign up.
+   - Grab your API key and create a `.env` file in the root directory:
+     
+     REACT_APP_WEATHER_API_KEY=your_api_key_here
+    
+4. **Start the app**
+   
+   npm start
+   
+
+## Screenshots
+   ![alt text](<wa1.png>)
+   ![alt text](<wa2.png>)
+
