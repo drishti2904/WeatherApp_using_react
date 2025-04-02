@@ -30,7 +30,7 @@ Getting this app up and running is super easy. Just follow these steps:
    
 3. **Get an API Key from OpenWeatherMap**
    - Head over to [OpenWeatherMap](https://openweathermap.org/) and sign up.
-   - Grab your API key and create a `.env` file in the root directory:
+   - Grab your API key.
      
      REACT_APP_WEATHER_API_KEY=your_api_key_here
     
