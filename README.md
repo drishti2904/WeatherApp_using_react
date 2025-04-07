@@ -10,6 +10,9 @@
 -  Fully responsive UI for all screen sizes
 - Fetches live weather data from OpenWeatherMap API
 
+## Watch the video
+[![Watch the video](https://img.youtube.com/vi/349Y5_g-KLs/0.jpg)](https://www.youtube.com/watch?v=349Y5_g-KLs)
+
 ## Tech Stack
 - **React.js** - Frontend framework
 - **OpenWeatherMap API** - Provides weather data
